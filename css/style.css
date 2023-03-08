@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    font-size: 14px;
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 206, 216);
+    height: 100vh;
+    border-radius: 30px;
+}
+
+.innerContainer{
+    display: flex;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+}
+
+.left-container{
+    width: 50%;
+}
+
+
+.right-container{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 20px;
+}
+
+.sideimg{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+
+.addButton{
+    width: 100%;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+
+.cart-icon{
+    padding-right: 20px;
+}
+
+.heading-text h3{
+    font-family: 'Montserrat', sans-serif; 
+    color: hsl(228, 12%, 48%);
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.heading-text1 h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%); 
+    padding-bottom: 20px;
+}
+
+.paragrapgh-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding-bottom: 20px;
+}
+
+.number-text{
+    display: flex;
+    align-items: center;
+}
+
+.number-text h1{
+    margin-right: 15px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    padding-bottom: 20px;
+}
+
+.number-text span{
+    text-decoration: line-through;
+    padding-bottom: 20px;
+}
+
